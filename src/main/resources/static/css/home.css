@@ -1,0 +1,88 @@
+header {
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(47, 38, 77);
+    color: white;
+    height: 8rem;
+}
+
+header > div {
+    padding: 1rem;
+}
+
+body{
+    margin: 0px;
+}
+
+button {
+    padding : 15px 20px;
+    align-self: center;
+    margin: 0px 4px 0 4px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.length-ads{
+    flex-grow: 1.5;
+    text-align: center;
+    /*background-color: rgb(47, 38, 77);*/
+}
+
+.width-ads{
+    text-align: center;
+    height: 8rem;
+}
+
+.controller{
+    flex-grow: .3;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.icon{
+    width: 2rem;
+}
+
+.footer{
+    justify-content: space-around;
+}
+
+#main{
+    flex-grow: 4;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+#follow-us{
+    justify-content: space-around;
+    height: 2.5rem;
+    background-color: rgb(47, 38, 77);
+    color: wheat;
+}
+
+#container{
+    height: 42rem;
+    justify-content: space-around;
+}
+
+#img-container{
+    height: 500px;
+    width: 500px;
+    margin: 20px 0;
+}
+
+#comic{
+    height: inherit;
+}
